@@ -1,36 +1,11 @@
-<?xml version="1.0"?>
-<settings>
-
-  <pluginGroups>
-    <pluginGroup>org.mule.tools</pluginGroup>
-  </pluginGroups>
-
-  <servers>
-    <server>
-      <id>github</id>
-      <username>Anirudh9494</username>
-      <password>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</password>
-    </server>
-  </servers>
-
-  <profiles>
-    <profile>
-      <id>Demo-Uploads</id>
-      <repositories>
-        <repository>
-          <id>github</id>
-          <url>https://github.com/Anirudh9494/Demo-Uploads</url>
-          <releases>
-            <enabled>true</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </repository>
-      </repositories>
-    </profile>
-  </profiles>
-  <activeProfiles>
-    <activeProfile>github-repo</activeProfile>
-  </activeProfiles>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>anypoint-exchange</id>
+            <username>Anirudh4142</username>
+            <password>Anirudh@123</password>
+        </server>
+    </servers>
 </settings>
