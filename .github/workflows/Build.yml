@@ -21,7 +21,7 @@ jobs:
           distribution: 'zulu'
 
       - name: Build with Maven
-        run: mvn clean package -DskipTests
+        run: mvn -B package -s .maven/settings.xml
 
       - name: Store artifact in GitHub Releases
         uses: actions/upload-artifact@v2
